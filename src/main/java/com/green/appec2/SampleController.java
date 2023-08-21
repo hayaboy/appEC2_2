@@ -10,6 +10,10 @@ public class SampleController {
 
     @GetMapping("/getArr")
     public String [] getArr(){
-        return new String[]{"AAA", "BBB","CCC"};
+        return new String[]{"AAA2", "BBB","CCC"};
     }
+
+
+
+
 }
