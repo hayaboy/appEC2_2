@@ -18,7 +18,7 @@ public class TestController1 {
     @GetMapping("/nice3")
     public String hi(Model model)
     {
-        model.addAttribute("today", "Monday");
+        model.addAttribute("today", "Monday2");
         return "data";
 
     }
